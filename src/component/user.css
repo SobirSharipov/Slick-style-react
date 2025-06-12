@@ -1,0 +1,9 @@
+.infoUser{
+    display: flex;
+    width: 600px;
+    background-color: #F0F0F0;
+   height: 180px;
+   border-radius: 30px;
+    padding-top: 20px;
+    text-align: start;
+}

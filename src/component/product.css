@@ -1,0 +1,22 @@
+.AllProduct{
+    width: 300px;
+    border: 1px solid gray;
+    padding-top: 40px;
+    border-radius: 20px;
+}
+.AllProduct>button{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    width: 60px;
+    
+}
+.AllProduct>h3{
+    font-size: 25px;
+    margin-left: 20px;
+}
+.AllProduct>div{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
