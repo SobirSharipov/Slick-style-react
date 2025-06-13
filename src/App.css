@@ -102,7 +102,7 @@ header>div {
 
 .Card1 {
   display: flex;
-  width: 60%;
+  width: 100%;
   gap: 30px;
   overflow-x: scroll;
   scroll-behavior: smooth;
@@ -244,6 +244,11 @@ input{
   padding-top: 30px;
   font-size: 20px;
 }
+ .btnflex{
+    display: flex;
+    width: 60%;
+    /* margin-top: 50px; */
+  }
 
 @media (max-width:510px){
   header>div>a{
@@ -288,7 +293,9 @@ input{
   }
   .btnflex{
     display: flex;
+    margin: auto;
     margin-top: 50px;
+    width: 95%;
   }
   .img10{
     display: none;
