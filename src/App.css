@@ -244,3 +244,94 @@ input{
   padding-top: 30px;
   font-size: 20px;
 }
+
+@media (max-width:510px){
+  header>div>a{
+    display: none;
+  }
+  .FaindUs{
+    display: block;
+  }
+  .fUs{
+    width: 90%;
+    margin-left: 30px;
+  }
+  .fUs>h1{
+    font-size: 40px;
+  }
+  .img2{
+    left: 0px;
+    width: 100%;
+    height: 600px;
+  }
+  .imm3{
+    display: none;
+  }
+  .brend{
+    display: flex;
+    gap: 30px;
+    margin-top: 195px;
+  }
+  .brend>div>img{
+    width: 100px;
+  }
+  .Allcard{
+    display: block;
+    
+  }
+  .infoCard{
+    text-align: center;
+  }
+  .Card1{
+    width: 80%;
+    margin: auto;
+  }
+  .btnflex{
+    display: flex;
+    margin-top: 50px;
+  }
+  .img10{
+    display: none;
+  }
+  .infopro{
+    position: relative;
+    margin-left: 30px;
+    font-size: 20px;
+    width: 90%;
+    padding-top: 30px;
+  }
+ 
+  .minipro{
+    width: 90%;
+    margin-top: 40px;
+  }
+  .img9{
+    width: 350px;
+    margin-top: 250px;
+  }
+  .recproduct{
+    margin: 20px;
+    margin-left: 10px;
+  }
+  .btn1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    margin: 20px;
+  }
+  .btn1>button{
+    width: 150px;
+  }
+  .User1{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin: 10px;
+  }
+  .divfot{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+  }
+  input{
+    width: 150px;
+  }
+}

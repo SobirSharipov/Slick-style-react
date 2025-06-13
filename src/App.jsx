@@ -77,13 +77,13 @@ function App() {
           <img src={img5} alt="" />
         </div>
         <div>
-          <img src={img3} alt="" />
+          <img src={img3} alt="" className='imm3'/>
         </div>
         <div>
-          <img src={img4} alt="" />
+          <img src={img4} alt="" className='imm3'/>
         </div>
         <div>
-          <img src={img5} alt="" />
+          <img src={img5} alt="" className='imm3' />
         </div>
 
       </div>
@@ -94,9 +94,12 @@ function App() {
           <p>Lorem ipsum dolor sit amet, <br /> consectetur adipiscing elit,</p>
           <button>Explore</button>
         </div>
+        <div className='btnflex'>
+          <div style={{marginTop:"140px"}}>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 sz btnback">
           <path strokeLinecap="round" strokeLinejoin="round" d="m11.25 9-3 3m0 0 3 3m-3-3h7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
         </svg>
+          </div>
         <div className='Card1'>
           <Card img={img8} name="Running canvas shoes" sum="Rs. 2999.00" />
           <Card img={img7} name="Running canvas shoes" sum="Rs. 2999.00" />
@@ -111,9 +114,12 @@ function App() {
           <Card img={img7} name="Running canvas shoes" sum="Rs. 2999.00" />
           <Card img={img6} name="casual nike shoes" sum="Rs. 2999.00" />
         </div>
+        <div  style={{marginTop:"140px"}}>
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="size-6 sz btnnext">
           <path strokeLinecap="round" strokeLinejoin="round" d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
         </svg>
+        </div>
+        </div>
       </div>
       <div className='recproduct'>
         <div>

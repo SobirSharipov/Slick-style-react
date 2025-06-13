@@ -5,7 +5,7 @@ const Product = ({ btn, img, name,sum }) => {
     return (
         <div className='AllProduct'>
             <button>{btn}</button><br />
-            <img style={{ width: "250px" }} src={img} alt="" />
+            <img  src={img} alt="" />
             <h3>{name}</h3>
             <div>
                 <h4>{sum} <span style={{marginLeft:"20px",fontSize:"10px"}}>₹4999.00</span></h4>

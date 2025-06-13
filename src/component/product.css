@@ -1,22 +1,49 @@
-.AllProduct{
+.AllProduct {
     width: 300px;
     border: 1px solid gray;
     padding-top: 40px;
     border-radius: 20px;
 }
-.AllProduct>button{
+
+.AllProduct>img {
+    width: 250px;
+}
+
+.AllProduct>button {
     background-color: black;
     color: white;
     padding: 5px;
     width: 60px;
-    
+
 }
-.AllProduct>h3{
+
+.AllProduct>h3 {
     font-size: 25px;
     margin-left: 20px;
 }
-.AllProduct>div{
+
+.AllProduct>div {
     display: flex;
     justify-content: space-between;
     margin: 20px;
+}
+
+@media (max-width:510px) {
+    .AllProduct {
+        width: 180px;
+    }
+
+    .AllProduct>img {
+        width: 150px;
+    }
+    .imgProduct{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        width: 90%;
+        margin: 10px;
+        gap: 10px;
+    }
+    .AllProduct>h3{
+        margin-left: 10px;
+    }
 }
